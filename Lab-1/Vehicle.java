@@ -1,4 +1,5 @@
-public abstract class Vehicle {
+
+public abstract class Vehicle implements Engine {
 
     protected String model;
 
@@ -7,8 +8,4 @@ public abstract class Vehicle {
     }
 
     public abstract void displayInfo();
-
-    protected abstract void startEngine();
-
-    protected abstract void stopEngine();
 }

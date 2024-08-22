@@ -1,4 +1,4 @@
-public class Car extends Vehicle implements Engine {
+public class Car extends Vehicle {
     private Engine engine;
 
     public Car(String model) {

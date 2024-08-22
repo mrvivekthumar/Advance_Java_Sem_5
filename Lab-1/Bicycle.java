@@ -10,12 +10,13 @@ public class Bicycle extends Vehicle {
     }
 
     @Override
-    protected void startEngine() {
+    public void startEngine() {
+        // TODO Auto-generated method stub
         throw new UnsupportedOperationException("Unimplemented method 'startEngine'");
     }
 
     @Override
-    protected void stopEngine() {
+    public void stopEngine() {
         // TODO Auto-generated method stub
         throw new UnsupportedOperationException("Unimplemented method 'stopEngine'");
     }

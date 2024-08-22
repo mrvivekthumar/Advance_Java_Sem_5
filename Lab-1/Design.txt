@@ -1,12 +1,12 @@
 Design :
-1. Abstract Class: Vehicle
+1. Interface: Engine
+    o Method: startEngine(), stopEngine()
+2. Abstract Class: Vehicle
     o Common properties: model
     o Common method: displayInfo()
-2. Interface: Engine
-    o Method: startEngine(), stopEngine()
 3. Concrete Classes:
-    o Car: Extends Vehicle, implements Engine
-    o Truck: Extends Vehicle, implements Engine
+    o Car: Extends Vehicle
+    o Truck: Extends Vehicle
     o Bicycle: Extends Vehicle
 4. Object Composition:
     o A Car and Truck have an Engine object as a part of their composition
