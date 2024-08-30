@@ -1,0 +1,13 @@
+Design :
+1. Interface: EmployeePredicate
+    o Method: test(Employee employee) (used for filtering)
+    o Default methods:  byAge(int age), 
+                        byDepartment(String department)
+                        (for common filtering operations)
+2. Class: Employee
+    o Properties: name, age, salary, department
+    o Methods: getters and setters
+3. Main Class: EmployeeMain
+    o Create a list of employees
+    o Use lambda expressions to filter and process the list
+    o Calculate statistics like average salary
