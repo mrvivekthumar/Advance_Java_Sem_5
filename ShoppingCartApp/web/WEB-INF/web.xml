@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app version="6.0" xmlns="https://jakarta.ee/xml/ns/jakartaee" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="https://jakarta.ee/xml/ns/jakartaee https://jakarta.ee/xml/ns/jakartaee/web-app_6_0.xsd">
+    <servlet>
+        <servlet-name>AddItem</servlet-name>
+        <servlet-class>vivek.AddItem</servlet-class>
+    </servlet>
+    <servlet>
+        <servlet-name>ViewItem</servlet-name>
+        <servlet-class>vivek.ViewItem</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>AddItem</servlet-name>
+        <url-pattern>/AddItem</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>ViewItem</servlet-name>
+        <url-pattern>/ViewItem</url-pattern>
+    </servlet-mapping>
+</web-app>
