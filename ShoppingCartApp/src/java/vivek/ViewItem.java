@@ -19,7 +19,7 @@ public class ViewItem extends HttpServlet {
         
         HttpSession session = request.getSession(false);
         
-        List<String> li = session.getAttribute("list");
+//        List<String> li = session.getAttribute("list");
           
        
      

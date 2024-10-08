@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app version="6.0" xmlns="https://jakarta.ee/xml/ns/jakartaee" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="https://jakarta.ee/xml/ns/jakartaee https://jakarta.ee/xml/ns/jakartaee/web-app_6_0.xsd">
+    <servlet>
+        <servlet-name>ChatEndpoint</servlet-name>
+        <servlet-class>com.vivek.ChatEndpoint</servlet-class>
+    </servlet>
+    <servlet>
+        <servlet-name>HelloWorldEndpoint</servlet-name>
+        <servlet-class>com.vivek.HelloWorldEndpoint</servlet-class>
+    </servlet>
+    <servlet>
+        <servlet-name>ChatEndPointParams</servlet-name>
+        <servlet-class>com.vivek.ChatEndPointParams</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>ChatEndpoint</servlet-name>
+        <url-pattern>/ChatEndpoint</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>HelloWorldEndpoint</servlet-name>
+        <url-pattern>/HelloWorldEndpoint</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>ChatEndPointParams</servlet-name>
+        <url-pattern>/ChatEndPointParams</url-pattern>
+    </servlet-mapping>
+</web-app>
